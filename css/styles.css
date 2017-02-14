@@ -17,8 +17,30 @@
 .navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
 	color: #2DAAE1;
 	background: none;
-}
 
+}
 .skills {
 	font-weight: 400;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+	background-color: rgba(52, 152, 219, 0.75);
+}
+
+.portfolio-title {
+	font-size: 3em;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: bold !important;
+	text-transform: uppercase;
+	color: #3498db;
+}
+
+.portfolio-subtitle {
+	font-size: 1.75em;
+	font-weight: lighter;
+	color: #3498db;
+}
+
+.link-img {
+	width: 75px;
 }
