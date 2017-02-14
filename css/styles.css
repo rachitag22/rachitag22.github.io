@@ -1,7 +1,10 @@
 .logo {
-	width: 20%;
+	width: 15%;
 }
 
-.main-header-row {
-	margin-bottom: 50px;
+.hr-custom {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #ffffff inset;
+	width: 20%;
 }
