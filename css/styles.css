@@ -2,9 +2,30 @@
 	width: 15%;
 }
 
-.hr-custom {
+.main-hr {
 	height: 10px;
 	border: 0;
-	box-shadow: 0 10px 10px -10px #ffffff inset;
+	border-top: 1px solid;
 	width: 20%;
+}
+
+/*
+.navbar-custom {
+	background-color: rgba(236, 240, 241, 0.75);
+	background-color: #ffffff;
+}
+
+.navbar-custom .navbar-brand, .navbar-custom .navbar-brand.active, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-nav li a, header, .navbar-custom .navbar-brand, .navbar-custom .navbar-brand.active, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-nav li a, header {
+	color: #34495e;
+}
+*/
+
+.navbar-custom .navbar-nav li a:hover, a.active, a:active, a:focus, a:hover {
+	color: #2DAAE1;
+}
+
+
+.navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover {
+	color: #2DAAE1;
+	background: none;
 }
