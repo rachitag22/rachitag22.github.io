@@ -44,3 +44,15 @@
 .link-img {
 	width: 75px;
 }
+
+
+.tooltip .tooltip-arrow {
+	border-top: 5px solid #3498db !important;
+}
+
+
+.tooltip.top .tooltip-inner {
+	background-color: #3498db;
+	font-family: Lato;
+	font-size: 1.2em;
+}

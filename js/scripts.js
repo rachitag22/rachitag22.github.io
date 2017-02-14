@@ -91,3 +91,7 @@ function getBackground(r, g, b) {
 		return 0;
 	}
 }
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
