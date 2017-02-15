@@ -1,12 +1,21 @@
-.logo {
-	width: 15%;
+.main-container {
+	padding-top: 10% !important;
 }
 
-.main-hr {
-	height: 10px;
+.logo {
+	width: 10%;
+}
+
+.light-hr {
+	height: 5px;
 	border: 0;
 	border-top: 1px solid;
 	width: 20%;
+}
+
+.down-button {
+	margin-top: 50px;
+	width: 75px;
 }
 
 .blue-hr {
@@ -26,8 +35,13 @@
 	background: none;
 
 }
+
 .skills {
 	font-weight: 400;
+}
+
+section {
+	padding: 50px 0 50px 0;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -77,6 +91,18 @@
 	color: #3498db;
 }
 
-h2 {
+.h2-blue {
 	color: #3498db !important;
+}
+
+.success {
+	background-color: #3498db !important;
+}
+
+.experience-img {
+	width: 150px;
+}
+
+.experience-company, .experience-title {
+	font-size: 1.5em;
 }

@@ -97,14 +97,17 @@
 
 	<!-- Header -->
 	<header class="main-header">
-		<div class="container">
+		<div class="container main-container">
 			<div class="row main-header-row">
 				<div class="col-lg-12">
 					<img class="img-responsive logo" src="img/profile.png" alt="">
 					<div class="intro-text">
 						<span class="name name-title">Rachit Agarwal</span>
-						<hr class="main-hr">
+						<hr class="light-hr">
 						<span class="skills name-subtitle">Student · Designer · Developer · Lover</span>
+						<span class="page-scroll">
+							<a href="#portfolio"><img class="down-button" src="img/icons/down.png" /></a>
+						</span>
 					</div>
 				</div>
 			</div>
@@ -116,7 +119,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
-					<h2>Portfolio</h2>
+					<h2 class="h2-blue">Portfolio</h2>
 					<hr class="blue-hr">
 				</div>
 			</div>
@@ -185,27 +188,32 @@
 		</div>
 	</section>
 
-	<!-- About Section -->
-	<section class="success" id="about">
+	<!-- Experience Section -->
+	<section class="success" id="experience">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
-					<h2>About</h2>
-					<hr class="star-light">
+					<h2 class="h2-white">Experience</h2>
+					<hr class="light-hr">
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-lg-offset-2">
-					<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+
+				<div class="row">
+					<div class="col-sm-2"></div>
+					<div class="col-sm-8">
+				  				<div class="row">
+							<div class="col-xs-3">
+								<img class="experience-img" src="img/experience/lendup.png" />
+							</div>
+							<div class="col-xs-9">
+								<span class="experience-company">LendUp</span>
+								<br />
+								<span class="experience-title">Software Engineering Intern</span>
+							</div>
+</div>
+					</div>
+					<div class="col-sm-2"></div>
 				</div>
-				<div class="col-lg-4">
-					<p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-				</div>
-				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<a href="#" class="btn btn-lg btn-outline">
-						<i class="fa fa-download"></i> Download Theme
-					</a>
-				</div>
+
 			</div>
 		</div>
 	</section>
@@ -577,12 +585,16 @@
 										 class="link-img" src="img/icons/html_css_js.png" />
 								</li>
 								<li>
-									<img data-toggle="tooltip" title="PostgreSQL"
-										 class="link-img" src="img/icons/postgresql.png" />
+									<img data-toggle="tooltip" title="Laravel"
+										 class="link-img" src="img/icons/laravel.png" />
 								</li>
 								<li>
 									<img data-toggle="tooltip" title="PHP"
 										 class="link-img" src="img/icons/php.png" />
+								</li>
+								<li>
+									<img data-toggle="tooltip" title="PostgreSQL"
+										 class="link-img" src="img/icons/postgresql.png" />
 								</li>
 							</ul>
 							
@@ -605,7 +617,9 @@
 				<div class="row">
 					<div class="col-lg-8 col-lg-offset-2">
 						<div class="modal-body">
-							<h2>StopBeat</h2>
+							<span class="portfolio-title">StopBeat</span>
+							<br />
+							<span class="portfolio-subtitle">Web App | November 2014</span>
 							<hr class="star-primary">
 							<img src="img/portfolio/stopbeat.png" class="img-responsive img-centered" alt="">
 							<p>I wanted to gain more experience with Android development, and at the same time, needed to take shorter showers, so I built StopBeat. StopBeat is an Android app that lets users specify an elapsed time, and the app will pause their music after that amount of time. At the time, this feature was present in iOS, but not natively on Android.</p>
