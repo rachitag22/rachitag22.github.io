@@ -9,6 +9,13 @@
 	width: 20%;
 }
 
+.blue-hr {
+	height: 10px;
+	border: 0;
+	border-top: 1px solid #3498db;
+	width: 20%;
+}
+
 .navbar-custom .navbar-nav li a:hover, a.active, a:active, a:focus, a:hover {
 	color: #2DAAE1;
 }
@@ -68,4 +75,8 @@
 .mini-title {
 	font-size: 1.5em;
 	color: #3498db;
+}
+
+h2 {
+	color: #3498db !important;
 }
