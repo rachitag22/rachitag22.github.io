@@ -42,7 +42,7 @@
 }
 
 .link-img {
-	width: 75px;
+	height: 75px;
 }
 
 
@@ -55,4 +55,17 @@
 	background-color: #3498db;
 	font-family: Lato;
 	font-size: 1.2em;
+}
+
+.link-details {
+	margin: 0 !important;
+}
+
+.stack-details {
+	margin: 0 0 20px 0 !important;
+}
+
+.mini-title {
+	font-size: 1.5em;
+	color: #3498db;
 }
