@@ -95,14 +95,44 @@ section {
 	color: #3498db !important;
 }
 
-.success {
+#experience, #about {
 	background-color: #3498db !important;
 }
 
 .experience-img {
-	width: 150px;
+	width: 10em;
+}
+
+.experience-header {
+	font-size: 1.5em;
+	margin-bottom: 15px;
 }
 
 .experience-company, .experience-title {
-	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.experience-separator {
+	color: #ecf0f1;
+}
+
+.experience-content {
+	font-size: 20px !important;
+} 
+
+#education {
+	background-color: white !important;
+	color: #2c3e50;
+}
+
+.education-separator {
+	color: #7f8c8d;
+}
+
+.about-content {
+	text-align: center;
+}
+
+.btn-outline.active, .btn-outline:active, .btn-outline:focus, .btn-outline:hover {
+	color: #3498db;
 }
