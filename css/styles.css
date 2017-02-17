@@ -108,6 +108,7 @@ section {
 
 .experience-img {
 	width: 8em;
+	border-radius: 50%;
 }
 
 @media (max-width: 767px) { .experience-img {
@@ -115,7 +116,7 @@ section {
 } }
 
 .experience-header {
-	font-size: 1.5em;
+	font-size: 1.25em;
 	margin-bottom: 15px;
 }
 
@@ -123,12 +124,16 @@ section {
 	font-weight: 700;
 }
 
+.experience-period {
+	font-size: 1em;
+}
+
 .experience-separator {
 	color: #ecf0f1;
 }
 
-.experience-content {
-	font-size: 18px !important;
+.experience-content, .experience-content > p {
+	font-size: 1.1em !important;
 } 
 
 #education {
