@@ -16,7 +16,8 @@
 
 .down-button {
 	margin-top: 50px;
-	width: 75px;
+	margin-bottom: 25px;
+	width: 50px;
 }
 
 .blue-hr {
@@ -103,6 +104,10 @@ section {
 .experience-img {
 	width: 10em;
 }
+
+@media (max-width: 767px) { .experience-img {
+	width: 5em;
+} }
 
 .experience-header {
 	font-size: 1.5em;
