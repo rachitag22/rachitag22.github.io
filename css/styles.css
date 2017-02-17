@@ -3,7 +3,8 @@
 }
 
 .logo {
-	width: 10%;
+	width: 100px;
+    margin-top: 50px;
 }
 
 .light-hr {
@@ -117,7 +118,7 @@ section {
 }
 
 .experience-content {
-	font-size: 20px !important;
+	font-size: 18px !important;
 } 
 
 #education {
