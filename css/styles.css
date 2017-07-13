@@ -107,7 +107,7 @@ section {
 }
 
 .experience-img {
-	width: 8em;
+	width: 90%;
 	border-radius: 50%;
 }
 
@@ -134,7 +134,7 @@ section {
 
 .experience-content, .experience-content > p {
 	font-size: 1.1em !important;
-} 
+}
 
 #education {
 	background-color: white !important;
