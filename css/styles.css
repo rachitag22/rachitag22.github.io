@@ -146,7 +146,7 @@ section {
 }
 
 .about-content {
-	text-align: center;
+	text-align: left;
 }
 
 .btn-outline.active, .btn-outline:active, .btn-outline:focus, .btn-outline:hover {
